@@ -3,6 +3,7 @@ namespace GameFolders.Scripts.General.FGEnum
 {
     public enum GameState
     {
+        TakeOff,
         Idle,
         Play,
         Finish,

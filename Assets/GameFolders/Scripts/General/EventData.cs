@@ -9,5 +9,6 @@ namespace GameFolders.Scripts.General
         public Action OnPlay { get; set; }
         public Action OnFinishLevel { get; set; }
         public Action OnLoseLevel { get; set; }
+        public Action PlayCamera { get; set; }
     }
 }

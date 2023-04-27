@@ -17,7 +17,7 @@ namespace GameFolders.Scripts.Managers
         
         private EventData _eventData;
 
-        public GameState GameState { get; set; } = GameState.Play;
+        public GameState GameState { get; set; } = GameState.Idle;
 
         private int Level
         {
