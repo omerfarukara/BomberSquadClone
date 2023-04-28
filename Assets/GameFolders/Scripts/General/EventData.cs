@@ -10,5 +10,7 @@ namespace GameFolders.Scripts.General
         public Action OnFinishLevel { get; set; }
         public Action OnLoseLevel { get; set; }
         public Action PlayCamera { get; set; }
+        
+        public Action<GameObject> CollectMoney { get; set; }
     }
 }

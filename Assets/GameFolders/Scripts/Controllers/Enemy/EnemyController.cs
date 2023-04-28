@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using GameFolders.Scripts.Components.Money;
 using GameFolders.Scripts.Interfaces;
 using UnityEngine;
 
@@ -8,6 +9,8 @@ public class EnemyController : MonoBehaviour, IDamageable
 {
     [SerializeField] private float healt;
     [SerializeField] private float bulletCooldown;
+
+    private MoneyCreator _moneyCreator;
     private BulletSpawner _bulletSpawner;
     private Animator _animator;
 
@@ -21,14 +24,15 @@ public class EnemyController : MonoBehaviour, IDamageable
             healt = value;
             if (value <= 0)
             {
-                //Dead
-                _animator.SetTrigger("Dead");
+                _moneyCreator.MoneyCreate();
+                StartCoroutine(Dead());
             }
         }
     }
 
     private void Awake()
     {
+        _moneyCreator = GetComponentInChildren<MoneyCreator>();
         _bulletSpawner = GetComponent<BulletSpawner>();
         _animator = GetComponentInChildren<Animator>();
     }
@@ -72,7 +76,14 @@ public class EnemyController : MonoBehaviour, IDamageable
             _animator.SetBool("Fire",false);
         }
     }
-
+    
+    private IEnumerator Dead()
+    {
+        _animator.SetTrigger("Dead");
+        yield return new WaitForSeconds(2);
+        Destroy(gameObject);
+    }
+    
     private void Attack()
     {
         _bulletSpawner.ProduceBullets();

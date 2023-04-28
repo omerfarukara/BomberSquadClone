@@ -28,14 +28,13 @@ namespace GameFolders.Scripts.Managers
                 PlayerPrefs.SetInt("Level", value);
             } 
         }
-    
         public int RealLevel => PlayerPrefs.GetInt("RealLevel", 1);
         public int SceneLevel => SceneManager.GetActiveScene().buildIndex;
         
-        public int Gold
+        public int Money
         {
-            get => PlayerPrefs.GetInt("Gold");
-            set => PlayerPrefs.SetInt("Gold", value);
+            get => PlayerPrefs.GetInt("Money");
+            set => PlayerPrefs.SetInt("Money", value);
         }
 
         #endregion

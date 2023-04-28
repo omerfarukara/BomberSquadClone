@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-forest_orange (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013125167130, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013163804864, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
       propertyPath: m_RootOrder
       value: 30
@@ -195,6 +199,10 @@ PrefabInstance:
     - target: {fileID: 1087910323514197239, guid: 07057acbe49496345866e485c63cb8dc, type: 3}
       propertyPath: m_Name
       value: egypt-statue-cat (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087910323514197239, guid: 07057acbe49496345866e485c63cb8dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1087910323514300631, guid: 07057acbe49496345866e485c63cb8dc, type: 3}
       propertyPath: m_RootOrder
@@ -289,13 +297,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 420436926}
+  m_Father: {fileID: 1777379518}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.05, y: 0.15}
+  m_AnchorMax: {x: 0.85, y: 0.825}
+  m_AnchoredPosition: {x: 10.799988, y: 8.819946}
+  m_SizeDelta: {x: -172.8, y: -87.48007}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &20643321
 MonoBehaviour:
@@ -345,6 +353,10 @@ PrefabInstance:
     - target: {fileID: 1000013125167130, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
       propertyPath: m_Name
       value: tree-forest_orange (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013125167130, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000013163804864, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
       propertyPath: m_RootOrder
@@ -562,6 +574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: egypt-spice-medium (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7778379530281489361, guid: 221143e5372ad6f44ae1f9ec59e0e5be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7778379530281848817, guid: 221143e5372ad6f44ae1f9ec59e0e5be, type: 3}
       propertyPath: m_RootOrder
       value: 43
@@ -623,6 +639,10 @@ PrefabInstance:
     - target: {fileID: 1000011791129056, guid: ecffebeddb5514952927bb855076b838, type: 3}
       propertyPath: m_Name
       value: tree-trunk
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011791129056, guid: ecffebeddb5514952927bb855076b838, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000013710339046, guid: ecffebeddb5514952927bb855076b838, type: 3}
       propertyPath: m_RootOrder
@@ -686,6 +706,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-conifer (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011069621734, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_RootOrder
       value: 24
@@ -747,6 +771,10 @@ PrefabInstance:
     - target: {fileID: 1000013593877540, guid: 413c0ee9c5b281a42aaccccc0d5d55b6, type: 3}
       propertyPath: m_Name
       value: tree-dry (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013593877540, guid: 413c0ee9c5b281a42aaccccc0d5d55b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000012879006608, guid: 413c0ee9c5b281a42aaccccc0d5d55b6, type: 3}
       propertyPath: m_RootOrder
@@ -888,6 +916,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: egypt-crate (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7616764410355315992, guid: 66e5efa91cf20154cb318b3e55570f3f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7616764410355738936, guid: 66e5efa91cf20154cb318b3e55570f3f, type: 3}
       propertyPath: m_RootOrder
       value: 37
@@ -950,6 +982,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: crate-supply (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1634955946618122, guid: 9ec89c1577003453abd60ed56703775a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4603530400243930, guid: 9ec89c1577003453abd60ed56703775a, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -1011,6 +1047,10 @@ PrefabInstance:
     - target: {fileID: 7778379530281489361, guid: 221143e5372ad6f44ae1f9ec59e0e5be, type: 3}
       propertyPath: m_Name
       value: egypt-spice-medium (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7778379530281489361, guid: 221143e5372ad6f44ae1f9ec59e0e5be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7778379530281848817, guid: 221143e5372ad6f44ae1f9ec59e0e5be, type: 3}
       propertyPath: m_RootOrder
@@ -1274,6 +1314,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-trunk (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011791129056, guid: ecffebeddb5514952927bb855076b838, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013710339046, guid: ecffebeddb5514952927bb855076b838, type: 3}
       propertyPath: m_RootOrder
       value: 51
@@ -1335,6 +1379,10 @@ PrefabInstance:
     - target: {fileID: 1000013593877540, guid: 413c0ee9c5b281a42aaccccc0d5d55b6, type: 3}
       propertyPath: m_Name
       value: tree-dry (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013593877540, guid: 413c0ee9c5b281a42aaccccc0d5d55b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000012879006608, guid: 413c0ee9c5b281a42aaccccc0d5d55b6, type: 3}
       propertyPath: m_RootOrder
@@ -1398,6 +1446,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: egypt-crate
       objectReference: {fileID: 0}
+    - target: {fileID: 7616764410355315992, guid: 66e5efa91cf20154cb318b3e55570f3f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7616764410355738936, guid: 66e5efa91cf20154cb318b3e55570f3f, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -1460,6 +1512,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-dry (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013593877540, guid: 413c0ee9c5b281a42aaccccc0d5d55b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012879006608, guid: 413c0ee9c5b281a42aaccccc0d5d55b6, type: 3}
       propertyPath: m_RootOrder
       value: 33
@@ -1511,85 +1567,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4000012879006608, guid: 413c0ee9c5b281a42aaccccc0d5d55b6, type: 3}
   m_PrefabInstance: {fileID: 419965529}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &420436925
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 420436926}
-  - component: {fileID: 420436928}
-  - component: {fileID: 420436927}
-  m_Layer: 5
-  m_Name: Skill Panel
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &420436926
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 420436925}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 20643320}
-  - {fileID: 1323962349}
-  - {fileID: 1777379518}
-  m_Father: {fileID: 7444709713671697828}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.775, y: 0.15}
-  m_AnchorMax: {x: 0.775, y: 0.15}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &420436927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 420436925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &420436928
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 420436925}
-  m_CullTransparentMesh: 1
 --- !u!1001 &421289706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1600,6 +1577,10 @@ PrefabInstance:
     - target: {fileID: 1000013593877540, guid: 413c0ee9c5b281a42aaccccc0d5d55b6, type: 3}
       propertyPath: m_Name
       value: tree-dry (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013593877540, guid: 413c0ee9c5b281a42aaccccc0d5d55b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000012879006608, guid: 413c0ee9c5b281a42aaccccc0d5d55b6, type: 3}
       propertyPath: m_RootOrder
@@ -1663,6 +1644,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-conifer (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011069621734, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -1724,6 +1709,10 @@ PrefabInstance:
     - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_Name
       value: tree-conifer (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000011069621734, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_RootOrder
@@ -1818,6 +1807,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-forest_orange (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013125167130, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013163804864, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
       propertyPath: m_RootOrder
       value: 66
@@ -1879,6 +1872,10 @@ PrefabInstance:
     - target: {fileID: 66156307665213636, guid: deb5f079b370e9440a838ce9135e7c82, type: 3}
       propertyPath: m_Name
       value: egypt-spice-big
+      objectReference: {fileID: 0}
+    - target: {fileID: 66156307665213636, guid: deb5f079b370e9440a838ce9135e7c82, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 66156307665568996, guid: deb5f079b370e9440a838ce9135e7c82, type: 3}
       propertyPath: m_RootOrder
@@ -1942,6 +1939,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-forest_orange (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013125167130, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013163804864, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
       propertyPath: m_RootOrder
       value: 31
@@ -2003,6 +2004,10 @@ PrefabInstance:
     - target: {fileID: 7778379530281489361, guid: 221143e5372ad6f44ae1f9ec59e0e5be, type: 3}
       propertyPath: m_Name
       value: egypt-spice-medium (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7778379530281489361, guid: 221143e5372ad6f44ae1f9ec59e0e5be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7778379530281848817, guid: 221143e5372ad6f44ae1f9ec59e0e5be, type: 3}
       propertyPath: m_RootOrder
@@ -2132,6 +2137,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-conifer (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011069621734, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -2193,6 +2202,10 @@ PrefabInstance:
     - target: {fileID: 7616764410355315992, guid: 66e5efa91cf20154cb318b3e55570f3f, type: 3}
       propertyPath: m_Name
       value: egypt-crate (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7616764410355315992, guid: 66e5efa91cf20154cb318b3e55570f3f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 7616764410355738936, guid: 66e5efa91cf20154cb318b3e55570f3f, type: 3}
       propertyPath: m_RootOrder
@@ -2261,6 +2274,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: house-egypt-small
       objectReference: {fileID: 0}
+    - target: {fileID: 8415598156402867045, guid: d85461e1e5028fb498b33e201a1cf7b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8415598156402960197, guid: d85461e1e5028fb498b33e201a1cf7b6, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -2322,6 +2339,10 @@ PrefabInstance:
     - target: {fileID: 1168481590864178527, guid: dc0fee812acc1b04d988e0fd5058403c, type: 3}
       propertyPath: m_Name
       value: building-house-family-small (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168481590864178527, guid: dc0fee812acc1b04d988e0fd5058403c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1168481590864343423, guid: dc0fee812acc1b04d988e0fd5058403c, type: 3}
       propertyPath: m_RootOrder
@@ -2515,6 +2536,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-forest_orange (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013125167130, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013163804864, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
       propertyPath: m_RootOrder
       value: 63
@@ -2648,6 +2673,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: military-tent
       objectReference: {fileID: 0}
+    - target: {fileID: 4059770842097716985, guid: 9120005602b21f34cb8572a056b24365, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4059770842098078425, guid: 9120005602b21f34cb8572a056b24365, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -2709,6 +2738,10 @@ PrefabInstance:
     - target: {fileID: 1000013125167130, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
       propertyPath: m_Name
       value: tree-forest_orange (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013125167130, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000013163804864, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
       propertyPath: m_RootOrder
@@ -3009,6 +3042,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: egypt-crate (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7616764410355315992, guid: 66e5efa91cf20154cb318b3e55570f3f, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7616764410355738936, guid: 66e5efa91cf20154cb318b3e55570f3f, type: 3}
       propertyPath: m_RootOrder
       value: 38
@@ -3115,6 +3152,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: egypt-oven
       objectReference: {fileID: 0}
+    - target: {fileID: 5689743542996203909, guid: 1aeeeadace3027440832c065219465c8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1aeeeadace3027440832c065219465c8, type: 3}
 --- !u!4 &747947105 stripped
@@ -3132,6 +3173,10 @@ PrefabInstance:
     - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_Name
       value: tree-conifer (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000011069621734, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_RootOrder
@@ -3255,6 +3300,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-runway-main-straight (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6344677616997809387, guid: f6fdd0173bf80fc4b9c7e0439a028be4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6fdd0173bf80fc4b9c7e0439a028be4, type: 3}
 --- !u!4 &847232633 stripped
@@ -3272,6 +3321,10 @@ PrefabInstance:
     - target: {fileID: 4536675003746787477, guid: 145e3004b62c0024ea0c0b13af7a4782, type: 3}
       propertyPath: m_Name
       value: egypt-rug
+      objectReference: {fileID: 0}
+    - target: {fileID: 4536675003746787477, guid: 145e3004b62c0024ea0c0b13af7a4782, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4536675003747220661, guid: 145e3004b62c0024ea0c0b13af7a4782, type: 3}
       propertyPath: m_RootOrder
@@ -3334,6 +3387,10 @@ PrefabInstance:
     - target: {fileID: 1000013034193654, guid: 3ba8722acc6ed407ba69d7d7d4d5f832, type: 3}
       propertyPath: m_Name
       value: japan-tree-tall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013034193654, guid: 3ba8722acc6ed407ba69d7d7d4d5f832, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000010053083938, guid: 3ba8722acc6ed407ba69d7d7d4d5f832, type: 3}
       propertyPath: m_RootOrder
@@ -3452,6 +3509,10 @@ PrefabInstance:
     - target: {fileID: 8965008891541643121, guid: 141849fb1b5198e458320e76f9438d68, type: 3}
       propertyPath: m_Name
       value: egypt-pillar-tent-pole (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8965008891541643121, guid: 141849fb1b5198e458320e76f9438d68, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 141849fb1b5198e458320e76f9438d68, type: 3}
@@ -3607,6 +3668,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: egypt-pillar-tent-pole
       objectReference: {fileID: 0}
+    - target: {fileID: 8965008891541643121, guid: 141849fb1b5198e458320e76f9438d68, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 141849fb1b5198e458320e76f9438d68, type: 3}
 --- !u!4 &944703010 stripped
@@ -3624,6 +3689,10 @@ PrefabInstance:
     - target: {fileID: 1000011791129056, guid: ecffebeddb5514952927bb855076b838, type: 3}
       propertyPath: m_Name
       value: tree-trunk (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011791129056, guid: ecffebeddb5514952927bb855076b838, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000013710339046, guid: ecffebeddb5514952927bb855076b838, type: 3}
       propertyPath: m_RootOrder
@@ -3743,6 +3812,10 @@ PrefabInstance:
     - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_Name
       value: tree-conifer (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000011069621734, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_RootOrder
@@ -3990,6 +4063,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: military-barracks
       objectReference: {fileID: 0}
+    - target: {fileID: 6772446701167835551, guid: e26db33de28d4634aa07717dcd0b3982, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e26db33de28d4634aa07717dcd0b3982, type: 3}
 --- !u!4 &1036945438 stripped
@@ -4007,6 +4084,10 @@ PrefabInstance:
     - target: {fileID: 875398931761708843, guid: 9893657f208ee0247b07110d23139a36, type: 3}
       propertyPath: m_Name
       value: house-egypt-medium (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 875398931761708843, guid: 9893657f208ee0247b07110d23139a36, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 875398931761996555, guid: 9893657f208ee0247b07110d23139a36, type: 3}
       propertyPath: m_RootOrder
@@ -4070,6 +4151,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-conifer (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011069621734, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_RootOrder
       value: 54
@@ -4131,6 +4216,10 @@ PrefabInstance:
     - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_Name
       value: tree-conifer (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000011069621734, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_RootOrder
@@ -4194,6 +4283,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-trunk (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011791129056, guid: ecffebeddb5514952927bb855076b838, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013710339046, guid: ecffebeddb5514952927bb855076b838, type: 3}
       propertyPath: m_RootOrder
       value: 60
@@ -4256,6 +4349,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: egypt-pillar-proto-doric (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8757133195427251931, guid: 2fcd900b0f8d7f34ea70112c65c3a783, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 8757133195427617531, guid: 2fcd900b0f8d7f34ea70112c65c3a783, type: 3}
       propertyPath: m_RootOrder
       value: 40
@@ -4317,6 +4414,10 @@ PrefabInstance:
     - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_Name
       value: tree-conifer (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000011069621734, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_RootOrder
@@ -4401,12 +4502,12 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1777379518}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.1, y: 0.1}
   m_AnchorMax: {x: 0.9, y: 0.9}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: -0.0000038146973}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1058132221
 MonoBehaviour:
@@ -4646,6 +4747,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-conifer (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011069621734, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_RootOrder
       value: 56
@@ -4775,6 +4880,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: egypt-rug (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4536675003746787477, guid: 145e3004b62c0024ea0c0b13af7a4782, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4536675003747220661, guid: 145e3004b62c0024ea0c0b13af7a4782, type: 3}
       propertyPath: m_RootOrder
       value: 36
@@ -4836,6 +4945,10 @@ PrefabInstance:
     - target: {fileID: 1000011791129056, guid: ecffebeddb5514952927bb855076b838, type: 3}
       propertyPath: m_Name
       value: tree-trunk (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011791129056, guid: ecffebeddb5514952927bb855076b838, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000013710339046, guid: ecffebeddb5514952927bb855076b838, type: 3}
       propertyPath: m_RootOrder
@@ -5094,6 +5207,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-runway-main-straight
       objectReference: {fileID: 0}
+    - target: {fileID: 6344677616997809387, guid: f6fdd0173bf80fc4b9c7e0439a028be4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6fdd0173bf80fc4b9c7e0439a028be4, type: 3}
 --- !u!4 &1186556331 stripped
@@ -5111,6 +5228,10 @@ PrefabInstance:
     - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_Name
       value: tree-conifer (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000011069621734, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_RootOrder
@@ -5239,6 +5360,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: egypt-oven (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5689743542996203909, guid: 1aeeeadace3027440832c065219465c8, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1aeeeadace3027440832c065219465c8, type: 3}
 --- !u!4 &1302249755 stripped
@@ -5256,6 +5381,10 @@ PrefabInstance:
     - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_Name
       value: tree-conifer (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000011069621734, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_RootOrder
@@ -5319,6 +5448,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-conifer (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011069621734, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_RootOrder
       value: 53
@@ -5380,6 +5513,10 @@ PrefabInstance:
     - target: {fileID: 1000013034193654, guid: 3ba8722acc6ed407ba69d7d7d4d5f832, type: 3}
       propertyPath: m_Name
       value: japan-tree-tall
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013034193654, guid: 3ba8722acc6ed407ba69d7d7d4d5f832, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000010053083938, guid: 3ba8722acc6ed407ba69d7d7d4d5f832, type: 3}
       propertyPath: m_RootOrder
@@ -5474,13 +5611,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 420436926}
+  m_Father: {fileID: 1777379518}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0.05, y: 0.15}
+  m_AnchorMax: {x: 0.85, y: 0.825}
+  m_AnchoredPosition: {x: 10.799988, y: 8.819946}
+  m_SizeDelta: {x: -172.8, y: -87.48007}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1323962350
 MonoBehaviour:
@@ -5530,6 +5667,10 @@ PrefabInstance:
     - target: {fileID: 1000011791129056, guid: ecffebeddb5514952927bb855076b838, type: 3}
       propertyPath: m_Name
       value: tree-trunk (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011791129056, guid: ecffebeddb5514952927bb855076b838, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000013710339046, guid: ecffebeddb5514952927bb855076b838, type: 3}
       propertyPath: m_RootOrder
@@ -5592,6 +5733,10 @@ PrefabInstance:
     - target: {fileID: 1000013125167130, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
       propertyPath: m_Name
       value: tree-forest_orange (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013125167130, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000013163804864, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
       propertyPath: m_RootOrder
@@ -5700,6 +5845,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: egypt-spice-big (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 66156307665213636, guid: deb5f079b370e9440a838ce9135e7c82, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 66156307665568996, guid: deb5f079b370e9440a838ce9135e7c82, type: 3}
       propertyPath: m_RootOrder
       value: 42
@@ -5762,6 +5911,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-conifer (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011069621734, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_RootOrder
       value: 20
@@ -5823,6 +5976,10 @@ PrefabInstance:
     - target: {fileID: 1000013125167130, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
       propertyPath: m_Name
       value: tree-forest_orange (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013125167130, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000013163804864, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
       propertyPath: m_RootOrder
@@ -5953,6 +6110,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-forest_orange (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013125167130, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013163804864, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -6018,6 +6179,10 @@ PrefabInstance:
     - target: {fileID: 4059770842097716985, guid: 9120005602b21f34cb8572a056b24365, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4059770842097716985, guid: 9120005602b21f34cb8572a056b24365, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4059770842098078425, guid: 9120005602b21f34cb8572a056b24365, type: 3}
       propertyPath: m_RootOrder
@@ -6125,6 +6290,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: military-tower
       objectReference: {fileID: 0}
+    - target: {fileID: 529248783548381530, guid: a074e65ea3b9578498c25f628d66d0ef, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a074e65ea3b9578498c25f628d66d0ef, type: 3}
 --- !u!4 &1530006565 stripped
@@ -6142,6 +6311,10 @@ PrefabInstance:
     - target: {fileID: 1634955946618122, guid: 9ec89c1577003453abd60ed56703775a, type: 3}
       propertyPath: m_Name
       value: crate-supply (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1634955946618122, guid: 9ec89c1577003453abd60ed56703775a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4603530400243930, guid: 9ec89c1577003453abd60ed56703775a, type: 3}
       propertyPath: m_RootOrder
@@ -6236,6 +6409,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terrain
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014259533324, guid: f3717ec476d85431cb3b0f6be1a9ce13, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011743371500, guid: f3717ec476d85431cb3b0f6be1a9ce13, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -6296,6 +6473,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 23000011809605160, guid: f3717ec476d85431cb3b0f6be1a9ce13, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 700ae469e5be9ac4095d29b97116027a, type: 2}
     m_RemovedComponents:
     - {fileID: 5285377210620167812, guid: f3717ec476d85431cb3b0f6be1a9ce13, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: f3717ec476d85431cb3b0f6be1a9ce13, type: 3}
@@ -6376,6 +6557,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-dry (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013593877540, guid: 413c0ee9c5b281a42aaccccc0d5d55b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012879006608, guid: 413c0ee9c5b281a42aaccccc0d5d55b6, type: 3}
       propertyPath: m_RootOrder
       value: 67
@@ -6437,6 +6622,10 @@ PrefabInstance:
     - target: {fileID: 8757133195427251931, guid: 2fcd900b0f8d7f34ea70112c65c3a783, type: 3}
       propertyPath: m_Name
       value: egypt-pillar-proto-doric
+      objectReference: {fileID: 0}
+    - target: {fileID: 8757133195427251931, guid: 2fcd900b0f8d7f34ea70112c65c3a783, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8757133195427617531, guid: 2fcd900b0f8d7f34ea70112c65c3a783, type: 3}
       propertyPath: m_RootOrder
@@ -6544,6 +6733,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: house-egypt-big (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3986841076631480986, guid: 10477b023d9efdd4faccfd25a9ac39c4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10477b023d9efdd4faccfd25a9ac39c4, type: 3}
 --- !u!4 &1676105981 stripped
@@ -6561,6 +6754,10 @@ PrefabInstance:
     - target: {fileID: 1000013593877540, guid: 413c0ee9c5b281a42aaccccc0d5d55b6, type: 3}
       propertyPath: m_Name
       value: tree-dry
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013593877540, guid: 413c0ee9c5b281a42aaccccc0d5d55b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000012879006608, guid: 413c0ee9c5b281a42aaccccc0d5d55b6, type: 3}
       propertyPath: m_RootOrder
@@ -6623,6 +6820,10 @@ PrefabInstance:
     - target: {fileID: 1000011791129056, guid: ecffebeddb5514952927bb855076b838, type: 3}
       propertyPath: m_Name
       value: tree-trunk (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011791129056, guid: ecffebeddb5514952927bb855076b838, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000013710339046, guid: ecffebeddb5514952927bb855076b838, type: 3}
       propertyPath: m_RootOrder
@@ -6705,12 +6906,14 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 20643320}
+  - {fileID: 1323962349}
   - {fileID: 1058132220}
-  m_Father: {fileID: 420436926}
-  m_RootOrder: 2
+  m_Father: {fileID: 7444709713671697828}
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: -1.125, y: -1}
-  m_AnchorMax: {x: 2.25, y: 2}
+  m_AnchorMin: {x: 0.6, y: 0.0625}
+  m_AnchorMax: {x: 1, y: 0.28}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -6736,7 +6939,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 524fc4a0db26c40e094a9c80579de1a2, type: 3}
   m_Type: 0
-  m_PreserveAspect: 1
+  m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -6762,6 +6965,10 @@ PrefabInstance:
     - target: {fileID: 1000013125167130, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
       propertyPath: m_Name
       value: tree-forest_orange
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013125167130, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000013163804864, guid: 53973fa484c6ade4891afd59f3e33e3a, type: 3}
       propertyPath: m_RootOrder
@@ -6824,6 +7031,10 @@ PrefabInstance:
     - target: {fileID: 1168481590864178527, guid: dc0fee812acc1b04d988e0fd5058403c, type: 3}
       propertyPath: m_Name
       value: building-house-family-small
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168481590864178527, guid: dc0fee812acc1b04d988e0fd5058403c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1168481590864343423, guid: dc0fee812acc1b04d988e0fd5058403c, type: 3}
       propertyPath: m_RootOrder
@@ -6948,6 +7159,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: egypt-spice-medium
       objectReference: {fileID: 0}
+    - target: {fileID: 7778379530281489361, guid: 221143e5372ad6f44ae1f9ec59e0e5be, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 7778379530281848817, guid: 221143e5372ad6f44ae1f9ec59e0e5be, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -7040,6 +7255,10 @@ PrefabInstance:
     - target: {fileID: 1087910323514197239, guid: 07057acbe49496345866e485c63cb8dc, type: 3}
       propertyPath: m_Name
       value: egypt-statue-cat
+      objectReference: {fileID: 0}
+    - target: {fileID: 1087910323514197239, guid: 07057acbe49496345866e485c63cb8dc, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1087910323514300631, guid: 07057acbe49496345866e485c63cb8dc, type: 3}
       propertyPath: m_RootOrder
@@ -7175,6 +7394,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tile-runway-main-straight (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6344677616997809387, guid: f6fdd0173bf80fc4b9c7e0439a028be4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f6fdd0173bf80fc4b9c7e0439a028be4, type: 3}
 --- !u!4 &1955746074 stripped
@@ -7192,6 +7415,10 @@ PrefabInstance:
     - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_Name
       value: tree-conifer (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000011069621734, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_RootOrder
@@ -7255,6 +7482,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree-trunk (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011791129056, guid: ecffebeddb5514952927bb855076b838, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013710339046, guid: ecffebeddb5514952927bb855076b838, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -7317,6 +7548,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: crate-supply
       objectReference: {fileID: 0}
+    - target: {fileID: 1634955946618122, guid: 9ec89c1577003453abd60ed56703775a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4603530400243930, guid: 9ec89c1577003453abd60ed56703775a, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -7378,6 +7613,10 @@ PrefabInstance:
     - target: {fileID: 8415598156402867045, guid: d85461e1e5028fb498b33e201a1cf7b6, type: 3}
       propertyPath: m_Name
       value: house-egypt-small (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415598156402867045, guid: d85461e1e5028fb498b33e201a1cf7b6, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 8415598156402960197, guid: d85461e1e5028fb498b33e201a1cf7b6, type: 3}
       propertyPath: m_RootOrder
@@ -7485,6 +7724,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: house-egypt-big
       objectReference: {fileID: 0}
+    - target: {fileID: 3986841076631480986, guid: 10477b023d9efdd4faccfd25a9ac39c4, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10477b023d9efdd4faccfd25a9ac39c4, type: 3}
 --- !u!4 &2060430532 stripped
@@ -7502,6 +7745,10 @@ PrefabInstance:
     - target: {fileID: 875398931761708843, guid: 9893657f208ee0247b07110d23139a36, type: 3}
       propertyPath: m_Name
       value: house-egypt-medium
+      objectReference: {fileID: 0}
+    - target: {fileID: 875398931761708843, guid: 9893657f208ee0247b07110d23139a36, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 875398931761996555, guid: 9893657f208ee0247b07110d23139a36, type: 3}
       propertyPath: m_RootOrder
@@ -7609,6 +7856,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: military-barracks (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6772446701167835551, guid: e26db33de28d4634aa07717dcd0b3982, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e26db33de28d4634aa07717dcd0b3982, type: 3}
 --- !u!4 &2103496070 stripped
@@ -7671,6 +7922,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: building-house-family-large
       objectReference: {fileID: 0}
+    - target: {fileID: 4903941222706319683, guid: 01efaf6e931e4d14cb37e9adc4ced205, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01efaf6e931e4d14cb37e9adc4ced205, type: 3}
 --- !u!4 &2113975078 stripped
@@ -7688,6 +7943,10 @@ PrefabInstance:
     - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_Name
       value: tree-conifer
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013928841562, guid: 3c60c62241840d84d85c98238c067920, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 4000011069621734, guid: 3c60c62241840d84d85c98238c067920, type: 3}
       propertyPath: m_RootOrder

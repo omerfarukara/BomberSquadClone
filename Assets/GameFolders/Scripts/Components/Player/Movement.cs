@@ -37,6 +37,8 @@ public class Movement : MonoBehaviour
         if (GameManager.Instance.GameState == GameState.Idle) return;
         transform.position += transform.forward * (forwardSpeed * Time.deltaTime);
 
+        if (!GameManager.Instance.Playability()) return;
+        
         if (Input.GetMouseButton(0))
         {
             float horizontalInput = UIController.Instance.GetHorizontal();
