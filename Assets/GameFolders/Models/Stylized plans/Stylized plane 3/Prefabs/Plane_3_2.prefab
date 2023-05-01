@@ -273,6 +273,8 @@ GameObject:
   - component: {fileID: 2640255911946938829}
   - component: {fileID: 2640255911944038893}
   - component: {fileID: 2640255911945169709}
+  - component: {fileID: 8876708401267777127}
+  - component: {fileID: 9139500739819774302}
   m_Layer: 0
   m_Name: Plane_3_2
   m_TagString: Untagged
@@ -348,6 +350,35 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8876708401267777127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2640255911947367917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8f8fb6c41b298b439867ace5a5fff7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxRotatePos: 30
+  isSingleEngine: 1
+  engine: {fileID: 2640255911947367919}
+  engineRotateSpeed: 0
+--- !u!114 &9139500739819774302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2640255911947367917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3338e0e233fa23d4e8fc788075cd501e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  difficultyLevel: 2
 --- !u!1 &2640255911947367919
 GameObject:
   m_ObjectHideFlags: 0

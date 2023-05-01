@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using GameFolders.Scripts;
+using GameFolders.Scripts.Controllers.Player;
 using UnityEngine;
 
 public class MissileSpawner : MonoBehaviour
@@ -10,22 +11,23 @@ public class MissileSpawner : MonoBehaviour
 
     private Queue<Ammo> _missiles = new Queue<Ammo>();
 
-    public void ProduceMissile()
+    public void ProduceMissile(int damage)
     {
         if (_missiles.Count == 0)
         {
             Ammo newAmmo = Instantiate(missilePrefab, transform);
             newAmmo.OnInitiate();
+            newAmmo.damage = damage;
             _missiles.Enqueue(newAmmo);
         }
 
         Ammo currentAmmo = _missiles.Dequeue();
         currentAmmo.OnAttack(MissilesReturnToQueue);
+        PlaneController.Instance.AmmoCount--;
     }
 
     private void MissilesReturnToQueue(Ammo ammo)
     {
-        print(ammo.name);
         Rigidbody ammoRigidbody = ammo.GetComponent<Rigidbody>();
 
         ammoRigidbody.constraints = RigidbodyConstraints.FreezeRotationZ | 

@@ -11,7 +11,7 @@ public class BulletSpawner : MonoBehaviour
     [ShowInInspector]
     private Queue<Ammo> _bullets = new Queue<Ammo>();
 
-    public void ProduceBullets()
+    public void ProduceBullets(int damage)
     {
         if (_bullets.Count == 0)
         {
@@ -21,6 +21,7 @@ public class BulletSpawner : MonoBehaviour
         }
         
         Ammo currentAmmo = _bullets.Dequeue();
+        currentAmmo.damage = damage;
         currentAmmo.OnAttack(BulletsReturnToQueue);
     }
     

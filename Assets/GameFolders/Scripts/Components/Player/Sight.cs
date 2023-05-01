@@ -1,12 +1,12 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using GameFolders.Scripts.Controllers.Player;
 using UnityEngine;
 
 public class Sight : MonoBehaviour
 {
     [SerializeField] private float bulletCooldown;
-    [SerializeField] private MissileSpawner missileSpawner;
 
     private float attackTimer;
     private PlaneController _planeController;
@@ -68,6 +68,6 @@ public class Sight : MonoBehaviour
     
     private void Attack()
     {
-        missileSpawner.ProduceMissile();
+        _planeController.Attack();
     }
 }

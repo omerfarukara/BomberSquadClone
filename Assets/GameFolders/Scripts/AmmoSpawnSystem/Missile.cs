@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using GameFolders.Scripts.Controllers.Enemy;
 using GameFolders.Scripts.Interfaces;
 using UnityEngine;
 
@@ -8,7 +9,6 @@ namespace GameFolders.Scripts
 {
     public class Missile : Ammo
     {
-        [SerializeField] private float damage;
         private Action<Missile> onComplete;
 
         private ParticleSystem bombParticle;

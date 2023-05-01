@@ -9,6 +9,7 @@ TagManager:
   - Plane
   - Sight
   - Missile
+  - Zone
   layers:
   - Default
   - TransparentFX

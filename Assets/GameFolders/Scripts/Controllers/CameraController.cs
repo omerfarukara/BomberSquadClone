@@ -1,6 +1,7 @@
 using System;
 using Cinemachine;
 using GameFolders.Scripts.General;
+using GameFolders.Scripts.General.Data;
 using GameFolders.Scripts.Managers;
 using UnityEngine;
 
@@ -18,26 +19,28 @@ namespace GameFolders.Scripts.Controllers
         private void Awake()
         {
             _cinemachineBrain = GetComponent<CinemachineBrain>();
-            _planeEventData =Resources.Load("Plane/PlaneEventData") as PlaneEventData;
+            _planeEventData = Resources.Load("Plane/PlaneEventData") as PlaneEventData;
             _eventData = Resources.Load("EventData") as EventData;
         }
 
         private void OnEnable()
         {
             _eventData.PlayCamera += PlayCamera;
-            _planeEventData.TakeOff += TakeOff;
+            _planeEventData.Landing += Landing;
+        }
+
+        private void Landing()
+        {
+            startCamera.Priority = 2;
+            gameCamera.Priority = 1;
         }
 
         private void OnDisable()
         {
             _eventData.PlayCamera -= PlayCamera;
-            _planeEventData.TakeOff -= TakeOff;
+            _planeEventData.Landing -= Landing;
         }
 
-        private void TakeOff()
-        {
-            //_cinemachineBrain.m_BlendUpdateMethod = CinemachineBrain.BrainUpdateMethod.FixedUpdate;
-        }
 
         private void PlayCamera()
         {

@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8907c0e58fbc9d5468069a25bd5af9b8, type: 3}
+  m_Name: PlaneData
+  m_EditorClassIdentifier: 
+  planeVariablesList:
+  - damageUpgradeMoney: 1000
+    healthUpgradeMoney: 750
+    capacityUpgradeMoney: 500
+    damage: 10
+    health: 100
+    capacity: 10
+    PlaneDifficultyLevel: 0
+  - damageUpgradeMoney: 1850
+    healthUpgradeMoney: 1700
+    capacityUpgradeMoney: 1350
+    damage: 20
+    health: 200
+    capacity: 20
+    PlaneDifficultyLevel: 1
+  - damageUpgradeMoney: 2600
+    healthUpgradeMoney: 3000
+    capacityUpgradeMoney: 2900
+    damage: 30
+    health: 300
+    capacity: 30
+    PlaneDifficultyLevel: 2
+  - damageUpgradeMoney: 3800
+    healthUpgradeMoney: 4000
+    capacityUpgradeMoney: 4000
+    damage: 40
+    health: 400
+    capacity: 40
+    PlaneDifficultyLevel: 3
+  - damageUpgradeMoney: 5000
+    healthUpgradeMoney: 5000
+    capacityUpgradeMoney: 5000
+    damage: 50
+    health: 500
+    capacity: 50
+    PlaneDifficultyLevel: 4

@@ -1,3 +1,4 @@
+using GameFolders.Scripts.Controllers.Player;
 using GameFolders.Scripts.General;
 using TMPro;
 using UnityEngine;
@@ -30,7 +31,7 @@ namespace GameFolders.Scripts.Components.Money
             
             distance = Mathf.Abs(Vector3.Distance(currentTransform, planeTransform));
 
-            if (distance < 20 && transform.GetChild(0).gameObject.activeInHierarchy)
+            if (distance < 10 && transform.GetChild(0).gameObject.activeInHierarchy)
             {
                 for (int i = 0; i <transform.childCount; i++)
                 {

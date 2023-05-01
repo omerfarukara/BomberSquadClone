@@ -1,5 +1,6 @@
 using System;
 using DG.Tweening;
+using GameFolders.Scripts.Controllers.Player;
 using UnityEngine;
 
 namespace GameFolders.Scripts.AmmoSpawnSystem
@@ -7,7 +8,6 @@ namespace GameFolders.Scripts.AmmoSpawnSystem
     public class Bullet : Ammo
     {
         [SerializeField] private float time;
-        [SerializeField] private float damage;
         private Action<Bullet> onComplete;
 
         private PlaneController _plane;

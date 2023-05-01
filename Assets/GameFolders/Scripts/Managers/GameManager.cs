@@ -1,4 +1,5 @@
 using System.Collections;
+using GameFolders.Scripts.Controllers;
 using GameFolders.Scripts.General;
 using GameFolders.Scripts.General.FGEnum;
 using UnityEngine;
@@ -19,6 +20,18 @@ namespace GameFolders.Scripts.Managers
 
         public GameState GameState { get; set; } = GameState.Idle;
 
+        private PlaneState _planeState = PlaneState.OnRunaway;
+
+        public PlaneState PlaneState
+        {
+            get => _planeState;
+            set
+            {
+                _planeState = value;
+                _eventData.ChangePlaneState?.Invoke(value);
+            }
+        }
+
         private int Level
         {
             get => PlayerPrefs.GetInt("Level") > levelCount ? Random.Range(randomLevelLowerLimit, levelCount) : PlayerPrefs.GetInt("Level",1);
@@ -33,8 +46,12 @@ namespace GameFolders.Scripts.Managers
         
         public int Money
         {
-            get => PlayerPrefs.GetInt("Money");
-            set => PlayerPrefs.SetInt("Money", value);
+            get => PlayerPrefs.GetInt("Money",1000000);
+            set
+            {
+                PlayerPrefs.SetInt("Money", value);
+                UIController.Instance.goldText.text = value.ToString();
+            } 
         }
 
         #endregion
@@ -93,6 +110,11 @@ namespace GameFolders.Scripts.Managers
         public void TryAgain()
         {
             SceneManager.LoadScene(Level);
+        }
+        
+        public void PlaneStateStatu(bool value)
+        {
+            PlaneState = value ? PlaneState.OnFly : PlaneState.OnRunaway;
         }
 
         private IEnumerator LoadSceneAfterDelay(float delay)

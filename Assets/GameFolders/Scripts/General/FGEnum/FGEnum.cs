@@ -9,6 +9,21 @@ namespace GameFolders.Scripts.General.FGEnum
         Finish,
         Lose
     }
+
+    public enum PlaneState
+    {
+        OnRunaway,
+        OnFly
+    }
+
+    public enum DifficultyLevel
+    {
+        Level1,
+        Level2,
+        Level3,
+        Level4,
+        Level5,
+    }
     
     public enum ValueType
     {
